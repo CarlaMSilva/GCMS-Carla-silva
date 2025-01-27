@@ -11,4 +11,8 @@ public class HomeController {
 		return "Hello, World! Carla"; 
 		System.out.println("Modificando o cód");
 		} 
+@GetMapping("/hotfix")
+ public String hotfix() {
+         return "This is a hotfix!";
+     }
 	}
