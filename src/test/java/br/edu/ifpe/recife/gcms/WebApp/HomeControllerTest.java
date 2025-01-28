@@ -10,5 +10,8 @@ class HomeControllerTest {
 	void test() {
 		fail("Not yet implemented");
 	}
-
+	@GetMapping("/hotfix")
+	 public String hotfix() {
+	         return "This is a hotfix!";
+	     }
 }
