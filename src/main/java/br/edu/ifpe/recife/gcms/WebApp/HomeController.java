@@ -10,7 +10,7 @@ public class HomeController {
 
     @RequestMapping("/")
     public @ResponseBody String greeting() {
-        return "Hello, World!";
+        return "Hello, World! Como estamos?";
     }
 
     @RequestMapping("/fulano")
