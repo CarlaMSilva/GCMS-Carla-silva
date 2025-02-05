@@ -1,6 +1,10 @@
 plugins {
 	id 'java'
+<<<<<<< HEAD
 	id 'org.springframework.boot' version '3.4.2'
+=======
+	id 'org.springframework.boot' version '3.3.7'
+>>>>>>> 28fe069e0d0c29116742b7ca7ce0d973e93fd4fb
 	id 'io.spring.dependency-management' version '1.1.7'
 }
 
