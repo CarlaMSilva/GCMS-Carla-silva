@@ -7,10 +7,15 @@ package br.edu.ifpe.recife.gcms.Pratica02;
 	@Controller 
 	public class HomeController {
 		
-		@RequestMapping("/") 
-		public @ResponseBody String greeting() {
-		return "Hello, World!";
-		}
+		//@RequestMapping("/") 
+		//public @ResponseBody String greeting() {
+		//return "Hello, World!";
+		//}
+		
+		@RequestMapping("/fulano")
+		public @ResponseBody String greetingFulano() { 
+			return "Hello, Carla Maria!";
+			}
 	}
 
 
