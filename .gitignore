@@ -1,8 +1,11 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 =======
 >>>>>>> 28fe069e0d0c29116742b7ca7ce0d973e93fd4fb
+=======
+>>>>>>> ddb4d27 (Pratica 2 parte Hello world)
 HELP.md
 .gradle
 build/
@@ -41,6 +44,7 @@ out/
 ### VS Code ###
 .vscode/
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 build/
 bin/
@@ -49,3 +53,5 @@ bin/
 *.lock
 =======
 >>>>>>> 28fe069e0d0c29116742b7ca7ce0d973e93fd4fb
+=======
+>>>>>>> ddb4d27 (Pratica 2 parte Hello world)
