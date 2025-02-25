@@ -16,6 +16,12 @@ package br.edu.ifpe.recife.gcms.Pratica02;
 		public @ResponseBody String greetingFulano() { 
 			return "Hello, Carla Maria!";
 			}
+		
+		@RequestMapping("/pessoa")
+		public @ResponseBody String greetingPessoa() { 
+			return "Hello, Carla Pessoa!";
+			}
+	
 	}
 
 
