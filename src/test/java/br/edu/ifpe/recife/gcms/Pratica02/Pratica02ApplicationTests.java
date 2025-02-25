@@ -14,21 +14,28 @@ import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMock
 import org.springframework.test.web.servlet.MockMvc;
 
 @SpringBootTest
-@AutoConfigureMockMvc 
+@AutoConfigureMockMvc
 class Pratica02ApplicationTests {
-	
-	@Autowired 
+
+	@Autowired
 	private MockMvc mockMvc;
 
 	@Test
-	public void shouldReturnDefaultMessage() throws Exception { 
-		this.mockMvc.perform(get("/"))
-			.andDo(print()).andExpect(status().isOk())
-			 .andExpect(content() 
-				.string(containsString("Hello, world!")));
-		}
-	
+	public void shouldReturnDefaultMessage() throws Exception {
+		this.mockMvc.perform(get("/")).andDo(print()).andExpect(status().isOk())
+				.andExpect(content().string(containsString("Hello, world!")));
 	}
 	
+	@Test
+	public void shouldReturnDefaultMessageFulano() throws Exception {
+		this.mockMvc.perform(get("/fulano")).andDo(print()).andExpect(status().isOk())
+		.andExpect(content().string(containsString("Hello, Carla Maria!")));
+	}
+	
+	@Test
+	public void shouldReturnDefaultMessagePessoa() throws Exception {
+		this.mockMvc.perform(get("/pessoa")).andDo(print()).andExpect(status().isOk())
+		.andExpect(content().string(containsString("Hello, Carla Pessoa!")));
+	}
 
-             
+}
