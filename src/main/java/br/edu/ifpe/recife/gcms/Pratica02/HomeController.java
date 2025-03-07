@@ -12,14 +12,19 @@ package br.edu.ifpe.recife.gcms.Pratica02;
 		//return "Hello, World!";
 		//}
 		
-		@RequestMapping("/fulano")
-		public @ResponseBody String greetingFulano() { 
-			return "Hello, Carla Maria!";
+		@RequestMapping("/carla")
+		public @ResponseBody String greetingCarla() { 
+			return "Hello, Carla Maria teste da prática 3!";
 			}
 		
 		@RequestMapping("/pessoa")
 		public @ResponseBody String greetingPessoa() { 
-			return "Hello, Carla Pessoa!";
+			return "Hello, Carla Pessoa da prática 3!";
+			}
+		
+		@RequestMapping("/hotfix")
+		public @ResponseBody String greetingHotfix() { 
+			return "Hello, criação da branch hotfix!";
 			}
 	
 	}
